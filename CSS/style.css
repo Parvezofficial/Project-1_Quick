@@ -1,0 +1,167 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    width: 100%;
+    border: 1px solid rgb(226, 226, 226); 
+}
+.header_part {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%; 
+    margin-bottom: 2px; 
+    margin-top: 0.5%;
+    overflow: hidden; 
+}
+
+.logo {
+     float: left; 
+     width: 21%; 
+}
+.logo img { 
+    margin-top: 5px; 
+}
+
+nav { overflow: hidden;
+     width: 79%; 
+    
+}
+nav ul li {
+
+
+    float: right;
+    margin: 12px 12px 29px 15px;
+    list-style: none;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 18px; 
+}
+
+.content_parent {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%; }
+.content_1 { 
+    text-align: center;
+     overflow: hidden; 
+}
+.content_1 h1 {
+    font-size: 57px;
+    margin-top: 24px;
+}
+.content_1 h2 {
+     font-size: 55px;
+      margin-top: 16px;
+       color: rgb(0, 138, 255);
+}
+.content_1 p {
+     margin-top: 2%; 
+}
+.content_2 { 
+     width: 91%; 
+}
+.content_2 img {
+    text-align: center;
+    width: 65%;
+    margin-left: 21%;
+    margin-top: 28px; 
+    }
+.content_3 {
+      overflow: hidden;
+      width: auto;
+      margin-top: 30px; 
+}
+.content_3 p{
+    
+text-align: right;
+}
+.article_1 {
+    float: left;
+    width: 38%;
+    margin-left: 5%; 
+}
+.article_1 h1 {
+     color: rgb(241, 85, 101);
+    text-align: right;
+    font-size: 270%; 
+}
+.article_2 {
+    float: right;
+    width: 48%;
+    margin-right: 5%;
+    font-size: 18px; 
+}
+.service {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 51px;
+    overflow: hidden;
+    padding: 1%; 
+}
+.service_one {
+     width: 30%;
+    background-color: rgb(253, 235, 237); 
+    float: left; 
+}
+.service_one img {
+     width: 78%; 
+}
+.service_one h1 {
+    padding: 3%;
+    text-align: left; 
+}
+.service_one p {
+    text-align: left;
+    padding: 4%; 
+}
+.service_two {
+    width: 30%;
+    background-color: rgb(235, 249, 244);
+    float: left; 
+    text-align: center;
+     margin-left: 5%; 
+}
+.service_two img {
+     width: 81%;
+ }
+.service_two h1 {
+    padding: 3%;
+    text-align: left; 
+}
+.service_two p {
+    text-align: left;
+    padding: 4%; 
+}
+.service_three {
+    width: 30%;
+    background-color: rgb(255, 247, 232);
+    float: left;
+    margin-left: 5%;
+    text-align: center; 
+}
+.service_three img {
+    width: 70%; 
+}
+.service_three h1 {
+    text-align: center;
+}
+.service_three p {
+    text-align: left;
+    padding: 4%; 
+}
+footer {
+    background-color: rgb(0, 138, 255);
+    width: 94%;
+    height: 14px;
+    margin-top: 100px;
+    text-align: center; 
+    padding: 3%; 
+}
+footer p {
+     color: rgb(255, 255, 255); 
+}
+footer p span {
+     text-align: center;
+      font-size: 21px; 
+}
